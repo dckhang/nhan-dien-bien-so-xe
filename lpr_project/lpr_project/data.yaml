@@ -1,0 +1,11 @@
+# Cấu trúc dataset (định dạng YOLO):
+# datasets/license_plate/
+#   images/train, images/val, images/test
+#   labels/train, labels/val, labels/test   (mỗi ảnh 1 file .txt: class x_center y_center w h, đã chuẩn hóa 0-1)
+path: datasets/license_plate
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: license_plate

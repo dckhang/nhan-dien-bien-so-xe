@@ -1,0 +1,9 @@
+ultralytics>=8.3.0
+opencv-python>=4.8
+easyocr>=1.7.1
+numpy
+torch
+pandas
+streamlit>=1.30
+openpyxl>=3.1
+pymongo>=4.6   # chỉ cần nếu dùng MongoDB
